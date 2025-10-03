@@ -1,8 +1,7 @@
-from models.query_models import QueryClassifier, LegalChatState
-from config import Config
+from legal_chatbot.models.query_models import QueryClassifier, LegalChatState, QueryType
+from legal_chatbot.config import Config
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import AIMessage
-from models.query_models import QueryType
 
 class LegalAgentNodes:
     """Collection of agent nodes for the legal chatbot workflow."""
