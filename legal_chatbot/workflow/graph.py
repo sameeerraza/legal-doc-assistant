@@ -1,5 +1,5 @@
-from agents.classifier import LegalAgentNodes
-from models.query_models import LegalChatState
+from legal_chatbot.agents.classifier import LegalAgentNodes
+from legal_chatbot.models.query_models import LegalChatState
 from langgraph.graph import StateGraph, START, END
 
 
