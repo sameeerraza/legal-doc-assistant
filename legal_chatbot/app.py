@@ -8,8 +8,8 @@ Python: 3.9+
 """
 
 import streamlit as st
-from chatbot.chatbot import LegalChatbot
-from config import Config, logger
+from legal_chatbot.chatbot.chatbot import LegalChatbot
+from legal_chatbot.config import Config, logger
 import os
 import tempfile
 from pathlib import Path
