@@ -1,5 +1,4 @@
-from typing import Optional
-from config import Config, logger
+from legal_chatbot.config import Config, logger
 from pathlib import Path
 from typing import Optional, Dict, Tuple
 try:
