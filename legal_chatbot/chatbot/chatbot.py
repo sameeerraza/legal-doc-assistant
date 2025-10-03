@@ -1,9 +1,9 @@
 from typing import Optional
 from legal_chatbot.config import Config, logger
 from langchain_core.messages import HumanMessage
-from workflow.graph import build_legal_graph
-from document_processing.processor import AdvancedDocumentProcessor
-from models.query_models import LegalChatState
+from legal_chatbot.workflow.graph import build_legal_graph
+from legal_chatbot.document_processing.processor import AdvancedDocumentProcessor
+from legal_chatbot.models.query_models import LegalChatState
 
 class LegalChatbot:
     """Main chatbot interface with advanced document management."""
