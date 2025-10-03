@@ -8,7 +8,7 @@ Python: 3.9+
 """
 
 import streamlit as st
-from chatbot.chatbot import LegalChatbot
+from legal_chatbot.chatbot.chatbot import LegalChatbot
 from config import Config, logger
 import os
 import tempfile
@@ -400,4 +400,5 @@ if __name__ == "__main__":
         logger.critical(f"Critical error: {e}")
         st.error(f"Critical Error: {str(e)}")
         if st.button("🔄 Restart"):
+
             st.rerun()
