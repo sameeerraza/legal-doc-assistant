@@ -1,0 +1,14 @@
+# Run with custom Tesseract path
+python chatbot.py -t /usr/local/bin/tesseract
+
+# Set custom DPI for higher quality
+python chatbot.py -d 400
+
+# Load document at startup
+python chatbot.py --load contract.pdf
+
+# Combined options
+python chatbot.py -d 400 --load scanned_agreement.pdf
+
+# Loading document in query
+📋 Query: load scanned_debt_agreement.pdf
