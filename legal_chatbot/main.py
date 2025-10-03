@@ -1,5 +1,5 @@
-from chatbot.chatbot import LegalChatbot
-from config import Config
+from legal_chatbot.chatbot.chatbot import LegalChatbot
+from legal_chatbot.config import Config
 import argparse
 
 def main():
